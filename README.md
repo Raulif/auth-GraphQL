@@ -1,2 +1,2 @@
 # auth-graphql-starter
-Starter project from a GraphQL course on Udemy.com - Section 3!
+Starter project based on a Udemy course. It aims to combine GraphQL and React to build an auth app using Passport.js
