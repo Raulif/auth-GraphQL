@@ -5,11 +5,11 @@ import { Link } from 'react-router';
 import mutation from '../mutations/logout';
 
 class Header extends React.Component {
+
     onLogoutClick() {
         this.props.mutate({
             refetchQueries: [{ query }]
-        });
-
+        })
     }
 
     renderButtons() {
@@ -28,7 +28,7 @@ class Header extends React.Component {
             return (
                 <div>
                     <li>
-                        <Link to="/singup">Signup</Link>
+                        <Link to="/signup">Signup</Link>
                     </li>
                     <li>
                         <Link to="/login">Login</Link>
